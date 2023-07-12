@@ -6,11 +6,14 @@ import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
 // import { swedenPolygons } from "../data/swedenPolygons";
-// import { philippinesPolygons } from "../data/philippinesPolygons";
+import { philippinesPolygons } from "../data/philippinesPolygons";
 import { сaymanislandsPolygons } from "../data/сaymanislandsPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
-  const dbbase = [сaymanislandsPolygons] as any;
+  const dbbase = [
+    сaymanislandsPolygons,
+    philippinesPolygons
+  ] as any;
 
   type activeCitiesType = {
     position: string;
