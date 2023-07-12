@@ -1,4 +1,4 @@
-export const philippinesPolygons = {
+export const philippines1Polygons = {
   type: "FeatureCollection",
   features: [
     // Столичный регион
@@ -86252,14 +86252,6 @@ export const philippinesPolygons = {
         }
       ]
     },
-    // Западные Висайи (Регион VI)
-    // Восточные Висайи (Регион VIII)
-    // Полуостров Замбоанга (Регион IX)
-    // Северный Минданао (Регион X)
-    // Регион Давао (Регион XI)
-    // СОККСКСАРХЕН (Регион XII)
-    // Карага (Регион XIII)
-    // Автономный Pегион Бангсаморо в Mусульманском Минданао (BARMM/АPБММ)
   ],
 };
 

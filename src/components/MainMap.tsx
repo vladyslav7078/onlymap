@@ -5,13 +5,13 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-import { philippinesPolygons } from "../data/philippinesPolygons";
-// import { сaymanislandsPolygons } from "../data/сaymanislandsPolygons";
+import { philippines1Polygons } from "../data/philippines1Polygons";
+import { philippines2Polygons } from "../data/philippines2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
-    // сaymanislandsPolygons,
-    philippinesPolygons
+    philippines1Polygons,
+    philippines2Polygons,
   ] as any;
 
   type activeCitiesType = {
