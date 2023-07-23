@@ -47,8 +47,8 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
           <TileLayer url="https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default//GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpg" />
         ) : (
           // main
-          // <TileLayer url="http://mt0.google.com/vt/lyrs=s,h&hl=en&x={x}&y={y}&z={z}&s=Ga" />
-          <TileLayer url="https://api.mapbox.com/styles/v1/mapooze/clhrs78wc002j01pnghet7uvg/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwb296ZSIsImEiOiJjbGh5d3lxZWswMDU4M251bmx0MHd4MnFwIn0.3LdPAXjgyAYXvYQKu5mtDA" />
+          <TileLayer url="http://mt0.google.com/vt/lyrs=s,h&hl=en&x={x}&y={y}&z={z}&s=Ga" />
+          // <TileLayer url="https://api.mapbox.com/styles/v1/mapooze/clhrs78wc002j01pnghet7uvg/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwb296ZSIsImEiOiJjbGh5d3lxZWswMDU4M251bmx0MHd4MnFwIn0.3LdPAXjgyAYXvYQKu5mtDA" />
 
           // prod
           // <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
