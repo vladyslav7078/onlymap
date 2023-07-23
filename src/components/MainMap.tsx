@@ -7,11 +7,15 @@ import "../app.scss";
 
 import { philippines1Polygons } from "../data/philippines1Polygons";
 import { philippines2Polygons } from "../data/philippines2Polygons";
+import { angola1Polygons } from "../data/angola1Polygons";
+import { angola2Polygons } from "../data/angola2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
     philippines1Polygons,
     philippines2Polygons,
+    angola1Polygons,
+    angola2Polygons,
   ] as any;
 
   type activeCitiesType = {
