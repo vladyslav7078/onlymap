@@ -5,16 +5,16 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-import { philippines1Polygons } from "../data/philippines1Polygons";
-import { philippines2Polygons } from "../data/philippines2Polygons";
-import { anguillaPolygons } from "../data/anguillaPolygons";
+// import { philippines1Polygons } from "../data/philippines1Polygons";
+// import { philippines2Polygons } from "../data/philippines2Polygons";
+// import { anguillaPolygons } from "../data/anguillaPolygons";
 import { bahamasPolygons } from "../data/bahamasPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
-    philippines1Polygons,
-    philippines2Polygons,
-    anguillaPolygons,
+    // philippines1Polygons,
+    // philippines2Polygons,
+    // anguillaPolygons,
     bahamasPolygons,
   ] as any;
 
