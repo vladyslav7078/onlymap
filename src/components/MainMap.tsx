@@ -18,10 +18,10 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     // philippines1Polygons,
     // philippines2Polygons,
     // anguillaPolygons,
-    bahamasPolygons,
+    // bahamasPolygons,
     // bahrainPolygons,
     belizePolygons,
-    bonairePolygons,
+    // bonairePolygons,
   ] as any;
 
   type activeCitiesType = {
