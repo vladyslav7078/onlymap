@@ -8,10 +8,11 @@ import "../app.scss";
 // import { philippines1Polygons } from "../data/philippines1Polygons";
 // import { philippines2Polygons } from "../data/philippines2Polygons";
 // import { anguillaPolygons } from "../data/anguillaPolygons";
-import { bahamasPolygons } from "../data/bahamasPolygons";
+// import { bahamasPolygons } from "../data/bahamasPolygons";
 // import { bahrainPolygons } from "../data/bahrainPolygons";
 import { belizePolygons } from "../data/belizePolygons";
-import { bonairePolygons } from "../data/bonairePolygons";
+// import { bonairePolygons } from "../data/bonairePolygons";
+import { canadaPolygons } from "../data/canadaPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
@@ -22,6 +23,7 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     // bahrainPolygons,
     belizePolygons,
     // bonairePolygons,
+    canadaPolygons,
   ] as any;
 
   type activeCitiesType = {
