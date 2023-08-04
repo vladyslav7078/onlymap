@@ -10,7 +10,7 @@ import "../app.scss";
 // import { anguillaPolygons } from "../data/anguillaPolygons";
 // import { bahamasPolygons } from "../data/bahamasPolygons";
 // import { bahrainPolygons } from "../data/bahrainPolygons";
-import { belizePolygons } from "../data/belizePolygons";
+// import { belizePolygons } from "../data/belizePolygons";
 // import { bonairePolygons } from "../data/bonairePolygons";
 import { canadaPolygons } from "../data/canadaPolygons";
 
@@ -21,7 +21,7 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     // anguillaPolygons,
     // bahamasPolygons,
     // bahrainPolygons,
-    belizePolygons,
+    // belizePolygons,
     // bonairePolygons,
     canadaPolygons,
   ] as any;
