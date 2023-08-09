@@ -1,4 +1,4 @@
-export const canadaPolygons = {
+export const canada1Polygons = {
   type: "FeatureCollection",
   features: [
     // Манитоба
@@ -81836,12 +81836,5 @@ export const canadaPolygons = {
         }
       ]
     },
-    // Саскачеван
-    // Квебек
-    // Новая Шотландия
-    // Британская Колумбия
-    // Северо-Западные территории
-    // Юкон
-    // Нунавут
   ],
 };

@@ -12,7 +12,8 @@ import "../app.scss";
 // import { bahrainPolygons } from "../data/bahrainPolygons";
 // import { belizePolygons } from "../data/belizePolygons";
 // import { bonairePolygons } from "../data/bonairePolygons";
-import { canadaPolygons } from "../data/canadaPolygons";
+import { canada1Polygons } from "../data/canada1Polygons";
+import { canada2Polygons } from "../data/canada2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
@@ -23,7 +24,8 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     // bahrainPolygons,
     // belizePolygons,
     // bonairePolygons,
-    canadaPolygons,
+    canada1Polygons,
+    canada2Polygons,
   ] as any;
 
   type activeCitiesType = {
