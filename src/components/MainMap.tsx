@@ -25,8 +25,8 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     // bahrainPolygons,
     // belizePolygons,
     // bonairePolygons,
-    canada2Polygons,
     canada1Polygons,
+    canada2Polygons,
     canada3Polygons,
   ] as any;
 
