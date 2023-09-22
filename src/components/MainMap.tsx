@@ -16,6 +16,7 @@ import { canada1Polygons } from "../data/canada1Polygons";
 import { canada2Polygons } from "../data/canada2Polygons";
 import { canada3Polygons } from "../data/canada3Polygons";
 import { canada4Polygons } from "../data/canada4Polygons";
+import { jamaicaPolygons } from "../data/jamaicaPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
@@ -30,6 +31,7 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     canada2Polygons,
     canada3Polygons,
     canada4Polygons,
+    jamaicaPolygons,
   ] as any;
 
   type activeCitiesType = {
