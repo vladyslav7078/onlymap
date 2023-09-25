@@ -31,7 +31,6 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     canada2Polygons,
     canada3Polygons,
     canada4Polygons,
-    jamaicaPolygons,
   ] as any;
 
   type activeCitiesType = {
