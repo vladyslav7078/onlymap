@@ -5,17 +5,19 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-import { canada1Polygons } from "../data/canada1Polygons";
-import { canada2Polygons } from "../data/canada2Polygons";
-import { canada3Polygons } from "../data/canada3Polygons";
-import { canada4Polygons } from "../data/canada4Polygons";
+// import { canada1Polygons } from "../data/canada1Polygons";
+// import { canada2Polygons } from "../data/canada2Polygons";
+// import { canada3Polygons } from "../data/canada3Polygons";
+// import { canada4Polygons } from "../data/canada4Polygons";
+import { indonesiaPolygons } from "../data/indonesiaPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
-    canada1Polygons,
-    canada2Polygons,
-    canada3Polygons,
-    canada4Polygons,
+    // canada1Polygons,
+    // canada2Polygons,
+    // canada3Polygons,
+    // canada4Polygons,
+    indonesiaPolygons
   ] as any;
 
   type activeCitiesType = {
