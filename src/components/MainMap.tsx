@@ -23,8 +23,6 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
     setActiveCity(city);
   };
 
-  const [selectedCity, setSelectedCity] = useState(null);
-
   return (
     <div className="mainmap__wrapper">
       <MapContainer
@@ -52,7 +50,7 @@ export const MainMap: FC<any> = ({ isDarkTheme }) => {
             key={idx}
             data={dbbase[idx]}
             style={(feature) => ({
-              color: feature?.properties.name === selectedCity ? "red" : "red",
+              color: "red",
               weight: 2,
               opacity: 1,
               fillOpacity: 0.3,
