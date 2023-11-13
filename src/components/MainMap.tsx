@@ -5,7 +5,8 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-import { indonesiaPolygons } from "../data/indonesiaPolygons";
+import { indonesia1Polygons } from "../data/indonesia1Polygons";
+import { indonesia2Polygons } from "../data/indonesia2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
