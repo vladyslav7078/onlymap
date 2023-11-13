@@ -10,7 +10,8 @@ import { indonesia2Polygons } from "../data/indonesia2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
-    indonesiaPolygons
+    indonesia1Polygons,
+    indonesia2Polygons,
   ] as any;
 
   type activeCitiesType = {
