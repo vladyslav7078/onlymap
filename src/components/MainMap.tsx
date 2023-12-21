@@ -7,11 +7,13 @@ import "../app.scss";
 
 import { indonesia1Polygons } from "../data/indonesia1Polygons";
 import { indonesia2Polygons } from "../data/indonesia2Polygons";
+import { indonesia3Polygons } from "../data/indonesia3Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
     indonesia1Polygons,
     indonesia2Polygons,
+    indonesia3Polygons,
   ] as any;
 
   type activeCitiesType = {
