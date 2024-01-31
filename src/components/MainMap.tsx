@@ -5,14 +5,12 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-import { bangladeshPolygons } from "../data/bangladeshPolygons";
 import { argentina1Polygons } from "../data/argentina1Polygons";
 import { argentina2Polygons } from "../data/argentina2Polygons";
 import { bruneiPolygons } from "../data/bruneiPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
-    bangladeshPolygons,
     argentina1Polygons,
     argentina2Polygons,
     bruneiPolygons
