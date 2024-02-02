@@ -5,17 +5,17 @@ import { MapContainer, TileLayer, Popup, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../app.scss";
 
-// import { argentina1Polygons } from "../data/argentina1Polygons";
-// import { argentina2Polygons } from "../data/argentina2Polygons";
 import { bruneiPolygons } from "../data/bruneiPolygons";
-import { denmarkPolygons } from "../data/denmarkPolygons";
+import { denmark1Polygons } from "../data/denmark1Polygons";
+import { denmark2Polygons } from "../data/denmark2Polygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
     // argentina1Polygons,
     // argentina2Polygons,
     bruneiPolygons,
-    denmarkPolygons
+    denmark1Polygons,
+    denmark2Polygons
   ] as any;
 
   type activeCitiesType = {
