@@ -9,13 +9,15 @@ import { denmark1Polygons } from "../data/denmark1Polygons";
 import { denmark2Polygons } from "../data/denmark2Polygons";
 import { seychellesPolygons } from "../data/seychellesPolygons";
 import { ecuadorPolygons } from "../data/ecuadorPolygons";
+import { croatiaPolygons } from "../data/croatiaPolygons";
 
 export const MainMap: FC<any> = ({ isDarkTheme }) => {
   const dbbase = [
     denmark1Polygons,
     denmark2Polygons,
     seychellesPolygons,
-    ecuadorPolygons
+    ecuadorPolygons,
+    croatiaPolygons
   ] as any;
 
   type activeCitiesType = {
